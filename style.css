@@ -1,0 +1,130 @@
+/* font add */
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+/* bg cloour changing */
+body {
+    background-color: antiquewhite;
+}
+
+/* shortcut hai ye  */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    /*bindu hatt jayenge*/
+    height: 65px;
+    background-color: black;
+    color: white;
+}
+
+nav ul li {
+    padding: 0px 12px;
+    /*uss particular cheez k aas pas jagah ban jaati hai top btm left right*/
+
+
+}
+
+.Brand img {
+    width: 44px;
+    padding: 0px 8px;
+}
+
+.Brand {
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.3rem;
+}
+
+.container {
+    min-height: 68vh;
+    /*75% of screen*/
+    background-color: black;
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+    display: flex;
+    width: 70%;
+    margin: 23px auto;
+    border-radius: 12px;
+    padding: 34px 34px;
+    background-image: url('components/bg.jpg');
+}
+
+.bottom {
+    position: sticky;
+    height: 130px;
+    background-color: black;
+    color: white;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.icons {
+    margin-top: 14px;
+}
+
+.icons i {
+    cursor: pointer;
+}
+
+#myProgressBar {
+    /* text-align: center;   this works only when myProgressBar container hota */
+    width: 80vw;
+    cursor: pointer;
+}
+
+.songItem {
+    height: 50px;
+    display: flex;
+    /*sab horizontal aajta hai flex box se*/
+    background-color: white;
+    width: 500px;
+    color: black;
+    margin: 12px 0px;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 22px;
+}
+
+.songItem i{
+    padding: 20px 20px;
+    cursor: pointer;
+}
+
+.songItem img {
+    width: 43px;
+    margin: 0px 23px;
+    border-radius: 34px;
+}
+
+.timestamp {
+    padding: 23px 23px;
+}
+
+.songItemContainer{
+    margin-top: 50px;
+}
+
+.songInfo{
+    position: absolute;
+    left: 10vw;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.songInfo img{
+    opacity: 0;
+    transition: opacity 0.4s ease-in;    /*when we will play the opacity will become 1 via js*/
+}
