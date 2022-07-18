@@ -8,16 +8,15 @@ let gif = document.getElementById('gif');
 let songItems = Array.from(document.getElementsByClassName('songItem'));
 
 let songs = [
-    { songName: "Warriyo - Mortals [NCS Release]", filePath: "songs/1.mp3", coverPath: "components/covers/1.jpg" },
-    { songName: "Cielo - Huma-Huma", filePath: "songs/2.mp3", coverPath: "components/covers/2.jpg" },
-    { songName: "DEAF KEV - Invincible [NCS Release]-320k", filePath: "songs/3.mp3", coverPath: "components/covers/3.jpg" },
-    { songName: "Different Heaven & EH!DE - My Heart [NCS Release]", filePath: "songs/4.mp3", coverPath: "components/covers/4.jpg" },
-    { songName: "Janji-Heroes-Tonight-feat-Johnning-NCS-Release", filePath: "songs/5.mp3", coverPath: "components/covers/5.jpg" },
-    { songName: "Test Audio 1", filePath: "songs/2.mp3", coverPath: "components/covers/6.jpg" },
-    { songName: "Test Audio 2", filePath: "songs/2.mp3", coverPath: "components/covers/7.jpg" },
-    { songName: "Test Audio 3", filePath: "songs/2.mp3", coverPath: "components/covers/8.jpg" },
-    { songName: "Test Audio 4", filePath: "songs/2.mp3", coverPath: "components/covers/9.jpg" },
-    { songName: "Test Audio 5", filePath: "songs/4.mp3", coverPath: "components/covers/10.jpg" },
+    { songName: "Audio 1", filePath: "components/songs/1.mp3", coverPath: "components/covers/1.jpg" },
+    { songName: "Audio 2", filePath: "components/songs/2.mp3", coverPath: "components/covers/2.jpg" },
+    { songName: "Audio 3", filePath: "components/songs/3.mp3", coverPath: "components/covers/3.jpg" },
+    { songName: "Audio 4", filePath: "components/songs/4.mp3", coverPath: "components/covers/4.jpg" },
+    { songName: "Audio 5", filePath: "components/songs/5.mp3", coverPath: "components/covers/5.jpg" },
+    { songName: "Audio 6", filePath: "components/songs/6.mp3", coverPath: "components/covers/6.jpg" },
+    { songName: "Audio 7", filePath: "components/songs/7.mp3", coverPath: "components/covers/7.jpg" },
+    { songName: "Audio 8", filePath: "components/songs/8.mp3", coverPath: "components/covers/8.jpg" },
+    { songName: "Audio 9", filePath: "components/songs/9.mp3", coverPath: "components/covers/9.jpg" }
 ]
 
 songItems.forEach((element, i) => {
