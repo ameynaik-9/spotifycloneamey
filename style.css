@@ -128,3 +128,36 @@ nav ul li {
     opacity: 0;
     transition: opacity 0.4s ease-in;    /*when we will play the opacity will become 1 via js*/
 }
+
+@media screen and (max-width:688px)
+{
+   .songItem{
+    height: 50px;
+    display: flex;
+    /*sab horizontal aajta hai flex box se*/
+    background-color: white;
+    width: 300px;
+    color: black;
+    margin: 12px 0px;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 22px;
+    font-size: 0.75rem;
+   }
+
+   .songItemContainer{
+    margin-top: 0px;
+}
+
+.bottom {
+    position: sticky;
+    height: 120px;
+    background-color: black;
+    color: white;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+}
